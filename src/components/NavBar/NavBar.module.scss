@@ -28,4 +28,9 @@
     text-decoration: none;
     padding: $base-size 0 $base-size $base-size * 2;
   }
+
+  .linkActive {
+    color: $color-warning;
+    transition: $transition;
+  }
 }
