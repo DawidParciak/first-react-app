@@ -11,10 +11,11 @@ const ColumnForm = (props) => {
   const [icon, setIcon] = useState('');
 
   const dispatch = useDispatch();
+  const listId = props.columnId;
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(addColumn({ title, icon }));
+    dispatch(addColumn({ title, icon, listId }));
     setTitle('');
     setIcon('');
   };
