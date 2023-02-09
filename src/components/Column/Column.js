@@ -18,6 +18,8 @@ const Column = props => {
           <Card 
             key={card.id} 
             title={card.title} 
+            isFavorite={card.isFavorite}
+            cardId={card.id}
           />
         )}
       </ul>

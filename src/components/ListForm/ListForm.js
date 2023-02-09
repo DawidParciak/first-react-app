@@ -27,7 +27,6 @@ const ListForm = (props) => {
       <Button>Add list</Button>
     </form>
 	);
-
 };
 
 export default ListForm;
