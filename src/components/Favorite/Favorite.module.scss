@@ -22,6 +22,11 @@
   text-align: center;
   font-size: ($base-size * 1.8);
   margin: 0 0 ($base-size * 1.5) 0;
-  position: relative;
-  top: 20px;
+}
+
+.empty {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
